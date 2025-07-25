@@ -128,8 +128,8 @@ SALE-MLP generates **well-separated class clusters**, as shown in latent space v
 
 
 <p align="center">
-  <img src="./kshot_plot_cora.pdf" width="400"/>  
-  <img src="./kshot_plot_citeseer.pdf" width="400"/>  
+  <img src="./kshot_plot_cora.png" width="400"/>  
+  <img src="./kshot_plot_citeseer.png" width="400"/>  
 </p>
 <em>Figure: Accuracy vs. number of labeled examples (k)</em>
 ---

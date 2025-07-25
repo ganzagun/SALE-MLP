@@ -2,7 +2,7 @@
 
 ![Conference](https://img.shields.io/badge/Accepted-IJCAI%202025-blueviolet)
 ![Paper Type](https://img.shields.io/badge/Type-Supplementary%20Material-lightgrey)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 
 This repository hosts **supplementary material, analysis, and findings** for the IJCAI 2025 accepted paper:
 

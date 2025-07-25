@@ -174,3 +174,20 @@ If you find our work useful, please cite:
   booktitle = {Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
   year      = {2025}
 }
+
+```
+
+## 📄 License
+
+This work is licensed under the  
+**[Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)**
+
+You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format  
+- **Adapt** — remix, transform, and build upon the material
+
+Under the following terms:
+
+- **Attribution** — You must give appropriate credit  
+- **NonCommercial** — You may not use the material for commercial purposes

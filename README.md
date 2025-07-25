@@ -41,6 +41,20 @@ Six widely-used datasets were analyzed in depth:
 
 ---
 
+## 📂 Supplementary Material Highlights
+
+This repository includes key details **not available in the main paper**, such as:
+
+- ✅ Detailed dataset statistics (heterophily ratios, class distributions)
+- ✅ Hyperparameter grids across six datasets
+- ✅ Inference efficiency and memory comparison vs. GNNs
+- ✅ Visualizations: t-SNE plots of feature space separation
+- ✅ Generalization across few-shot regimes (k-shot analysis)
+- ✅ Heterophily-resilient performance
+- ✅ Statistical significance tests (McNemar’s test)
+
+---
+
 ## ⚙️ Hyperparameters Used
 
 All hyperparameters were tuned per dataset. Highlights include:
@@ -110,6 +124,16 @@ SALE-MLP generates **well-separated class clusters**, as shown in latent space v
 
 ---
 
+### 🔹 Few-Shot Learning (k-shot)
+
+
+<p align="center">
+  <img src="./kshot_plot_cora.png" width="400"/>  
+  <img src="./kshot_plot_citeseer.png" width="400"/>  
+</p>
+<em>Figure: Accuracy vs. number of labeled examples (k)</em>
+---
+
 ### 📌 Hyperparameter Sensitivity
 
 SALE-MLP is **robust to λ and α changes**:
@@ -125,11 +149,17 @@ Using **McNemar’s Test**, SALE-MLP is **statistically better** than the second
 
 ---
 
-## 📌 Key Takeaways
+## 📌 Summary of Strengths
 
-- **SALE-MLP** is a scalable, structure-aware, and efficient alternative to GNNs.
-- Achieves **graph-free inference** with **state-of-the-art accuracy**.
-- Applicable to **low-label**, **heterophilic**, and **large-scale** graph tasks.
+| Dimension           | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| Inference Time      | Up to **150× faster** than SAGE GNN                                         |
+| Generalization      | Excels in **low-label regimes** (few-shot learning)                         |
+| Structure Awareness | High **min-cut consistency** and better **latent cluster separation**       |
+| Heterophily Robust  | Performs best in high heterophily settings                                  |
+| Teacher Agnostic    | Works with GAT, GCN, and SAGE with consistently top performance             |
+| Task Flexibility    | Strong results on both classification and **link prediction**               |
+| Loss Robustness     | Works with **DeepWalk, Node2Vec, LINE**, showing SALE-MLP is loss-agnostic  |
 
 ---
 

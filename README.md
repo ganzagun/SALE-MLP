@@ -163,6 +163,14 @@ Using **McNemar’s Test**, SALE-MLP is **statistically better** than the second
 
 ---
 
+## 📄 License
+
+This repository is made available for academic reference only.
+
+**All rights reserved**.  
+You may **not copy, redistribute, or modify** the contents of this repository.  
+If you reference any part of this work, please cite the following paper:
+
 ## 📚 Citation
 
 If you find our work useful, please cite:
@@ -177,10 +185,4 @@ If you find our work useful, please cite:
 
 ```
 
-## 📄 License
 
-This repository is made available for academic reference only.
-
-**All rights reserved**.  
-You may **not copy, redistribute, or modify** the contents of this repository.  
-If you reference any part of this work, please cite the following paper:

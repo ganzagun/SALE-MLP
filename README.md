@@ -103,7 +103,7 @@ SALE-MLP outperforms all baselines across **k-shot (low-label) learning scenario
 SALE-MLP generates **well-separated class clusters**, as shown in latent space visualizations:
 
 <p align="center">
-  <img src="assets/tsne_cora.png" width="600" alt="t-SNE Cora" />
+  <img src="./tsne_cora.png" width="600" alt="t-SNE Cora" />
   <br><em>Figure: t-SNE for Cora — SALE-MLP latent embeddings show clear separation.</em>
 </p>
 
